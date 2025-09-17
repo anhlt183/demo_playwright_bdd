@@ -133,7 +133,7 @@ Run specific scenarion in a feature file `pytest -v -k "successfull_logout_from_
 
 ### **Notes & Best Practices**
 
-- Use `strip()` or default `''` for empty string handling in Scenario Outlines.
+- Use `strip()` or default `''` for empty string handling in Scenario Outlines
 - Structure your Page classes well with locators, actions, and status checkers.
 
 ---
