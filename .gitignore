@@ -1,0 +1,49 @@
+# Bỏ qua thư mục Allure
+reports/allure-results/
+reports/allure-report/
+allure-results/
+reports/
+
+# Bỏ qua các folder tạm khác (nếu muốn)
+.pytest_cache/
+*.html
+.cache/
+screenshots/
+
+# Ignore pytest cache
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+*.pyd
+*.so
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore environment files
+myvenv/
+.env
+.env.local
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
